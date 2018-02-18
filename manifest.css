@@ -6595,10 +6595,14 @@ form.active {
     background: #2A1F32; }
   .ios .gutter .contact {
     background: #2A1F32;
-    margin-right: 0; }
+    margin-right: 0;
+    opacity: 0.5;
+  }
     .ios .gutter .contact.selected {
       background: #4A1386;
-      color: #fba6ff; }
+      color: #fba6ff;
+      opacity: 1;
+    }
       .ios .gutter .contact.selected .last-timestamp {
         color: white; }
 
